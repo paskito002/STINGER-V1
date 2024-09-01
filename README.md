@@ -8,7 +8,7 @@
 
 ### If you want to deploy on panel, download bot zip file and upload it to your server 
 
-### 1. <a href="https://github.com/paskito002/STINGER-V1/fork"><img src="https://img.shields.io/badge/FORK-blue" alt="Click Here to fork STINGER-V1" width="70"></a>
+ <a href="https://github.com/paskito002/STINGER-V1/fork"><img src="https://img.shields.io/badge/FORK-blue" alt="Click Here to fork STINGER-V1" width="70"></a>
 
  ### 2. Deploy on Panel
 
