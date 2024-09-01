@@ -13,7 +13,7 @@
 
 
 ### 2.
-#### COPY THESE COMMANDS AND PASTE IF YOU TRYING TO DEPLOY [Voltage_V1_BUG_BOT](https://github.com/paskito002/STINGER-V1) ON ANY TERMINAL
+#### COPY THESE COMMANDS AND PASTE IF YOU TRYING TO DEPLOY [STINGER-V1 BUG BOT](https://github.com/paskito002/STINGER-V1) ON ANY TERMINAL
 ```
 sudo apt -y update && sudo apt -y upgrade
 ```
