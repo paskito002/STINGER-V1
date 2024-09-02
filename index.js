@@ -1,11 +1,11 @@
-//base by DGXeon (Xeon Bot Inc.)
+//base by ES-TEAMS TECH (Stinger-V1 Bot Inc.)
 //re-upload? recode? copy code? give credit ya :)
-//YouTube: @DGXeon
-//Instagram: unicorn_xeon13 
-//Telegram: t.me/xeonbotinc
-//GitHub: @DGXeon
-//WhatsApp: +916909137213
-//want more free bot scripts? subscribe to my youtube channel: https://youtube.com/@DGXeon
+//YouTube: @pesteams
+//Instagram: Unavailable 
+//Telegram: t.me/examsolutionteam
+//GitHub: @paskito
+//WhatsApp: +2349037524605
+//want more free bot scripts? subscribe to my youtube channel: https://youtube.com/@esteams
 
 const {
    spawn
@@ -20,7 +20,7 @@ function start() {
       })
       .on('message', data => {
          if (data == 'reset') {
-            console.log('Restarting Bot...')
+            console.log('Restarting Stinger-V1...')
             p.kill()
             start()
             delete p
