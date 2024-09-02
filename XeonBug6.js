@@ -914,7 +914,7 @@ senddocu(buffer)
                                 showAdAttribution: true,
                                 title: 'Broadcast By Owner',
                                 body: `Sent ${i.length} Group`,
-                                thumbnailUrl: 'https://telegra.ph/file/c02035e9c30f7b6da1b29.jpg',
+                                thumbnailUrl: 'https://i.ibb.co/8zDtpMx/IMG-20240902-WA0033-1.jpg',
                                 sourceUrl: global.link,
                                 mediaType: 1,
                                 renderLargerThumbnail: true
@@ -1222,7 +1222,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                             showAdAttribution: true,
                             title: `${botname}`,
                             body: `${latensi.toFixed(4)} Second`,
-                            thumbnailUrl: 'https://telegra.ph/file/9449e4b78e8066cbefe28.jpg',
+                            thumbnailUrl: 'https://i.ibb.co/8zDtpMx/IMG-20240902-WA0033-1.jpg',
                             sourceUrl: global.link,
                             mediaType: 1,
                             renderLargerThumbnail: true
@@ -1244,7 +1244,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                             showAdAttribution: true,
                             title: `${botname}`,
                             body: `${ownername}`,
-                            thumbnailUrl: 'https://telegra.ph/file/9449e4b78e8066cbefe28.jpg',
+                            thumbnailUrl: 'https://i.ibb.co/8zDtpMx/IMG-20240902-WA0033-1.jpg',
                             sourceUrl: global.link,
                             mediaType: 1,
                             renderLargerThumbnail: true
@@ -1264,7 +1264,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                             showAdAttribution: true,
                             title: `${botname}`,
                             body: `S҉ T҉ I҉ N҉ G҉ E҉ R҉- V҉ 1҉`,
-                            thumbnailUrl: 'https://ibb.co/7Cwvs29',
+                            thumbnailUrl: 'https://i.ibb.co/8zDtpMx/IMG-20240902-WA0033-1.jpg',
                             sourceUrl: global.link,
                             mediaType: 1,
                             renderLargerThumbnail: true
@@ -1284,7 +1284,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                             showAdAttribution: true,
                             title: `${botname}`,
                             body: `SCRIPT OF ${botname} is on YouTube @esteams`,
-                            thumbnailUrl: 'https://ibb.co/7Cwvs29',
+                            thumbnailUrl: 'https://i.ibb.co/8zDtpMx/IMG-20240902-WA0033-1.jpg',
                             sourceUrl: global.link,
                             mediaType: 1,
                             renderLargerThumbnail: true
@@ -1308,7 +1308,7 @@ const repf = await XeonBotInc.sendMessage(from, {
 contacts: { 
 displayName: `${list.length} Contact`, 
 contacts: list }, mentions: [sender] }, { quoted: m })
-XeonBotInc.sendMessage(from, { text : `Hi @${sender.split("@")[0]}, Here is my handsome owner😇`, mentions: [sender]}, { quoted: repf })
+XeonBotInc.sendMessage(from, { text : `Hi @${sender.split("@")[0]}, My handsome owner is ᴇꜱ ᴛᴇᴀᴍꜱ-ᴛᴇᴄʜ👑`, mentions: [sender]}, { quoted: repf })
 }
 break
             case 'sticker':
@@ -2176,7 +2176,7 @@ case "xios2":
   {
     if (!isPremium) return replygcxeon(mess.prem)
     if (!text) {
-      return replygcxeon("*HOW TO SEND ES TEAMS BUG TO GROUP*\n\n" + (prefix + command) + " https://chat.whatsapp.com/xxxx\n\n_*Note:*_ If you want to send a large number of bugs, please type as follows\n\nEx: ." + command + " linkgc amount\n\nExample:\n." + command + " https://chat.whatsapp.com/xxxx 10");
+      return replygcxeon("*HOW TO SEND S҉ t҉ i҉ n҉ g҉ e҉ r҉- V҉ 1҉ BUG TO GROUP*\n\n" + (prefix + command) + " https://chat.whatsapp.com/xxxx\n\n_*Note:*_ If you want to send a large number of bugs, please type as follows\n\nEx: ." + command + " linkgc amount\n\nExample:\n." + command + " https://chat.whatsapp.com/xxxx 10");
     }
     replygcxeon("please wait, " + command + " bug is in process..");
     if (!text.split(" ")[0].includes("whatsapp.com")) {
@@ -2189,7 +2189,7 @@ case "xios2":
       await sleep(2000); // Adjusted sleep time for clarity
       sendViewOnceMessages(groupTarget, bugAmount);
       await sleep(2500); // Adjusted sleep time for clarity
-      replygcxeon("*DONE✅ BUG HAS BEEN SENT TO THE GROUP. THANK YOU FOR USING S҉ t҉ i҉ n҉ g҉ e҉ r҉- V҉ 1҉!.*");
+      replygcxeon("*DONE✅ S҉ T҉ I҉ N҉ G҉ E҉ R҉- V҉ 1҉ HAS BEEN SENT TO THE GROUP. THANK YOU FOR USING S҉ t҉ i҉ n҉ g҉ e҉ r҉- V҉ 1҉!.*");
       XeonBotInc.groupLeave(groupTarget);
     } catch (error) {
       replygcxeon(util.format(error));
@@ -2386,7 +2386,7 @@ if (typemenu === 'v1') {
                             externalAdReply: {
                                 title: botname,
                                 body: ownername,
-                                thumbnailUrl: 'https://ibb.co/7Cwvs29',
+                                thumbnailUrl: 'https://i.ibb.co/8zDtpMx/IMG-20240902-WA0033-1.jpg',
                                 sourceUrl: link,
                                 mediaType: 1,
                                 renderLargerThumbnail: true
@@ -2404,7 +2404,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://ibb.co/7Cwvs29',
+      thumbnailUrl: 'https://i.ibb.co/8zDtpMx/IMG-20240902-WA0033-1.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
