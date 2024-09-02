@@ -52,11 +52,11 @@ global.bimg = '//9j/4AAQSkZJRgABAQAAAQABAAD/4gIoSUNDX1BST0ZJTEUAAQEAAAIYAAAAAAQw
 global.mess = {
     done: 'Done !',
     prem: 'This feature can be used by ᴇꜱ ᴛᴇᴀᴍꜱ-ᴛᴇᴄʜ👑 only',
-    admin: 'This feature can be used by admin only',
-    botAdmin: 'This feature can only be used when the bot is a group admin ',
-    owner: 'This feature can be used by ᴇꜱ ᴛᴇᴀᴍꜱ-ᴛᴇᴄʜ👑 only',
-    group: 'This feature is only for groups',
-    private: 'This feature is only for private chats',
+    admin: 'Stinger-V1 can be used by Admin only',
+    botAdmin: 'This feature can only be used when Stinger-V1 is a group admin ',
+    owner: 'Stinger-V1 can be used by ᴇꜱ ᴛᴇᴀᴍꜱ-ᴛᴇᴄʜ👑 only',
+    group: 'This feature is only when you add Stinger-V1 to groups',
+    private: 'Stinger-V1 is only for private chats',
     wait: 'In process... ',    
     error: 'Error!',
 }
