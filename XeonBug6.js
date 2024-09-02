@@ -58,22 +58,22 @@ const xtime = moment.tz('Africa/Lagos').format('HH:mm:ss')
         const xdate = moment.tz('Africa/Lagos').format('MM/DD/YYYY')
         const time2 = moment().tz('Africa/Lagos').format('HH:mm:ss')  
          if(time2 < "23:59:00"){
-var xeonytimewisher = `Good Night 🌌`
+var xeonytimewisher = `Hey, This is ᴇꜱ ᴛᴇᴀᴍꜱ-ᴛᴇᴄʜ👑, be careful while bugging. I am already feeling sleepy😢🥱, anyways Good Night 🌌`
  }
  if(time2 < "19:00:00"){
-var xeonytimewisher = `Good Evening 🌃`
+var xeonytimewisher = `Hey, This is ᴇꜱ ᴛᴇᴀᴍꜱ-ᴛᴇᴄʜ👑, be careful while bugging. The day is coming to end, you should get some rest😘😁. Anyways Good Evening 🌃`
  }
  if(time2 < "18:00:00"){
-var xeonytimewisher = `Good Evening 🌃`
+var xeonytimewisher = `Hey, This is ᴇꜱ ᴛᴇᴀᴍꜱ-ᴛᴇᴄʜ👑, be careful while bugging. The day is coming, you should get some rest😘😁. Anyways Good Evening 🌃`
  }
  if(time2 < "15:00:00"){
-var xeonytimewisher = `Good Afternoon 🌅`
+var xeonytimewisher = `Hey, This is ᴇꜱ ᴛᴇᴀᴍꜱ-ᴛᴇᴄʜ👑Mehnnn the weather is so hot😭I am burning, anyways Good Afternoon 🌅`
  }
  if(time2 < "11:00:00"){
-var xeonytimewisher = `Good Morning 🌄`
+var xeonytimewisher = `Wakey,wakey😂. This is ᴇꜱ ᴛᴇᴀᴍꜱ-ᴛᴇᴄʜ👑,I hope you slept well. Anyways Good Morning 🌄`
  }
  if(time2 < "05:00:00"){
-var xeonytimewisher = `Good Morning 🌄`
+var xeonytimewisher = `Wakey,wakey😂. This is ᴇꜱ ᴛᴇᴀᴍꜱ-ᴛᴇᴄʜ👑,I hope you slept well. Anyways Good Morning 🌄`
  } 
 module.exports = XeonBotInc = async (XeonBotInc, m, msg, chatUpdate, store) => {
     try {
@@ -1236,7 +1236,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
             case 'buypremium':
             case 'buyprem':
             case 'premium': {
-                let teks = `Hi ${pushname}👋\nWant to Buy Premium? Just chat with ᴇꜱ ᴛᴇᴀᴍꜱ-ᴛᴇᴄʜ👑`
+                let teks = `Hi ${pushname}👋\nWant to Buy Premium? Just chat with ᴇꜱ ᴛᴇᴀᴍꜱ-ᴛᴇᴄʜ👑>09037524605`
                 await XeonBotInc.sendMessage(m.chat, {
                     text: teks,
                     contextInfo: {
@@ -1298,7 +1298,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
             case 'donasi':
                 let textnate = `Hello Brother ${pushname}\n\nNo matter how much you donate is very valuable for us`
                 XeonBotInc.sendMessage(m.chat, {
-                    text: 'Paypal: https://www.paypal.me/josephxeon13\n\n' + textnate
+                    text: 'Zenith Bank🏦Acct name:Paschal JE🏦Acct no:2409139282: \n\n' + textnate
                 }, {
                     quoted: m
                 })
