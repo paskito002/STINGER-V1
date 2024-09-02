@@ -61,10 +61,10 @@ const xtime = moment.tz('Africa/Lagos').format('HH:mm:ss')
 var xeonytimewisher = `Hey, This is ᴇꜱ ᴛᴇᴀᴍꜱ-ᴛᴇᴄʜ👑, be careful while bugging. I am already feeling sleepy😢🥱, anyways Good Night 🌌`
  }
  if(time2 < "19:00:00"){
-var xeonytimewisher = `Hey, This is ᴇꜱ ᴛᴇᴀᴍꜱ-ᴛᴇᴄʜ👑, be careful while bugging. The day is coming to end, you should get some rest😘😁. Anyways Good Evening 🌃`
+var xeonytimewisher = `Hey, This is ᴇꜱ ᴛᴇᴀᴍꜱ-ᴛᴇᴄʜ👑, be careful while bugging. The day is coming to an end, you should get some rest😘😁. Anyways Good Evening 🌃`
  }
  if(time2 < "18:00:00"){
-var xeonytimewisher = `Hey, This is ᴇꜱ ᴛᴇᴀᴍꜱ-ᴛᴇᴄʜ👑, be careful while bugging. The day is coming, you should get some rest😘😁. Anyways Good Evening 🌃`
+var xeonytimewisher = `Hey, This is ᴇꜱ ᴛᴇᴀᴍꜱ-ᴛᴇᴄʜ👑, be careful while bugging. The day is coming to an end, you should get some rest😘😁. Anyways Good Evening 🌃`
  }
  if(time2 < "15:00:00"){
 var xeonytimewisher = `Hey, This is ᴇꜱ ᴛᴇᴀᴍꜱ-ᴛᴇᴄʜ👑Mehnnn the weather is so hot😭I am burning, anyways Good Afternoon 🌅`
@@ -704,7 +704,7 @@ senddocu(buffer)
                         fs.unlinkSync(`./session/${file}`)
                     });
                     await sleep(2000)
-                    replygcxeon("Successfully deleted all the trash in the session folder")
+                    replygcxeon("Stinger-V1 has Successfully deleted all the trash in the session folder")
                 });
             }
             break
@@ -722,7 +722,7 @@ senddocu(buffer)
                 break      
             case 'getsession':
                 if (!isCreator) return replygcxeon(mess.owner)
-                replygcxeon('Wait a moment, currently retrieving your session file')
+                replygcxeon('Wait a moment, Stinger-V1 is currently retrieving your session file')
                 let sesi = await fs.readFileSync('./session/creds.json')
                 XeonBotInc.sendMessage(m.chat, {
                     document: sesi,
@@ -748,10 +748,10 @@ senddocu(buffer)
                 if (args.length < 1) return replygcxeon(`Example ${prefix + command} on/off`)
                 if (q === 'on') {
                     autoread = true
-                    replygcxeon(`Successfully changed autoread to ${q}`)
+                    replygcxeon(`Successfully changed Stinger-V1 Autoread to ${q}`)
                 } else if (q === 'off') {
                     autoread = false
-                    replygcxeon(`Successfully changed autoread to ${q}`)
+                    replygcxeon(`Successfully changed Stinger-V1 Autoread to ${q}`)
                 }
                 break
                 case 'autotyping':
@@ -759,10 +759,10 @@ senddocu(buffer)
                 if (args.length < 1) return replygcxeon(`Example ${prefix + command} on/off`)
                 if (q === 'on') {
                     autoTyping = true
-                    replygcxeon(`Successfully changed auto-typing to ${q}`)
+                    replygcxeon(`Successfully changed Stinger-V1 auto-typing to ${q}`)
                 } else if (q === 'off') {
                     autoTyping = false
-                    replygcxeon(`Successfully changed auto-typing to ${q}`)
+                    replygcxeon(`Successfully changed Stinger-V1 auto-typing to ${q}`)
                 }
                 break
                 case 'autorecording':
@@ -770,10 +770,10 @@ senddocu(buffer)
                 if (args.length < 1) return replygcxeon(`Example ${prefix + command} on/off`)
                 if (q === 'on') {
                     autoRecording = true
-                    replygcxeon(`Successfully changed auto-recording to ${q}`)
+                    replygcxeon(`Successfully changed Stinger-V1 auto-recording to ${q}`)
                 } else if (q === 'off') {
                     autoRecording = false
-                    replygcxeon(`Successfully changed auto-recording to ${q}`)
+                    replygcxeon(`Successfully changed Stinger-V1 auto-recording to ${q}`)
                 }
                 break
                 case 'autorecordtyp':
@@ -781,7 +781,7 @@ senddocu(buffer)
                 if (args.length < 1) return replygcxeon(`Example ${prefix + command} on/off`)
                 if (q === 'on') {
                     autorecordtype = true
-                    replygcxeon(`Successfully changed auto recording and typing to ${q}`)
+                    replygcxeon(`Successfully changed Stinger-V1 auto recording and typing to ${q}`)
                 } else if (q === 'off') {
                     autorecordtype = false
                     replygcxeon(`Successfully changed auto recording and typing to ${q}`)
@@ -972,7 +972,7 @@ senddocu(buffer)
                 replygcxeon(`Close time ${q} starting from now`)
                 setTimeout(() => {
                     var nomor = m.participant
-                    const close = `*Closed* group closed by admin\nnow only admin can send messages`
+                    const close = `*Closed* Stinger-V1 has now closed the group\nnow only admins and ES-TEAMS TECH can send messages in the group`
                     XeonBotInc.groupSettingUpdate(m.chat, 'announcement')
                     replygcxeon(close)
                 }, timer)
@@ -995,7 +995,7 @@ senddocu(buffer)
                 replygcxeon(`Open time ${q} starting from now`)
                 setTimeout(() => {
                     var nomor = m.participant
-                    const open = `*Opened* The group is opened by admin\nNow members can send messages`
+                    const open = `*Opened* Stinger-V1 has now opened the group\nNow members can send messages`
                     XeonBotInc.groupSettingUpdate(m.chat, 'not_announcement')
                     replygcxeon(open)
                 }, timer)
@@ -1236,7 +1236,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
             case 'buypremium':
             case 'buyprem':
             case 'premium': {
-                let teks = `Hi ${pushname}👋\nWant to Buy Premium? Just chat with ᴇꜱ ᴛᴇᴀᴍꜱ-ᴛᴇᴄʜ👑>09037524605`
+                let teks = `Hi ${pushname}👋\nWant to Buy Stinger-V1 Premium? Just chat with ᴇꜱ ᴛᴇᴀᴍꜱ-ᴛᴇᴄʜ👑>09037524605`
                 await XeonBotInc.sendMessage(m.chat, {
                     text: teks,
                     contextInfo: {
@@ -1278,7 +1278,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
             case 'script':
             case 'scriptbot':
                 XeonBotInc.sendMessage(m.chat, {
-                    text: `Welcome to ES TEAMS BUG BOT`,
+                    text: `This Whatsapp User is using Stinger-V1`,
                     contextInfo: {
                         externalAdReply: {
                             showAdAttribution: true,
@@ -1296,7 +1296,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                 break
             case 'donate':
             case 'donasi':
-                let textnate = `Hello Brother ${pushname}\n\nNo matter how much you donate is very valuable for us`
+                let textnate = `Hello Brother ${pushname}\n\nNo matter how much you donate is very valuable for us. Thank you for choosing Stinger-V1`
                 XeonBotInc.sendMessage(m.chat, {
                     text: 'Zenith Bank🏦Acct name:Paschal JE🏦Acct no:2409139282: \n\n' + textnate
                 }, {
@@ -1394,7 +1394,7 @@ break
             break
             case 'tomp4':
             case 'tovideo': {
-                if (!/webp/.test(mime)) return replygcxeon(`Reply sticker with caption *${prefix + command}*`)
+                if (!/webp/.test(mime)) return replygcxeon(`Stinger-V1 is waiting for you to Reply sticker with caption *${prefix + command}*`)
                 replygcxeon(mess.wait)
                 let media = await XeonBotInc.downloadAndSaveMediaMessage(qmsg)
                 let webpToMp4 = await webp2mp4File(media)
@@ -1614,17 +1614,17 @@ replygcxeon(`Number ${bnnd} Has Become An Owner!!!`)
 break
 case 'delowner':
                 if (!isCreator) return replygcxeon(mess.owner)
-if (!args[0]) return replygcxeon(`Use ${prefix+command} nomor\nExample ${prefix+command} 2349159895444`)
+if (!args[0]) return replygcxeon(`Use ${prefix+command} nomor\nExample ${prefix+command} 2349037524605`)
 ya = q.split("|")[0].replace(/[^0-9]/g, '')
 unp = owner.indexOf(ya)
 owner.splice(unp, 1)
 fs.writeFileSync('./database/owner.json', JSON.stringify(owner))
-replygcxeon(`The Numbrr ${ya} Has been deleted from owner list by the owner!!!`)
+replygcxeon(`The Numbrr ${ya} Has been deleted from owner Stinger-V1 list by the owner!!!`)
 break
             case 'addvideo': {
                 if (!isPremium) return replygcxeon(mess.prem)
                 if (args.length < 1) return replygcxeon('Video Name?')
-                if (VideoXeon.includes(q)) return replygcxeon("The name you entered already exists")
+                if (VideoXeon.includes(q)) return replygcxeon("The name you entered already exists in Stinger-V1 Database")
                 let delb = await XeonBotInc.downloadAndSaveMediaMessage(quoted)
                 VideoXeon.push(q)
                 await fsx.copy(delb, `./XeonMedia/video/${q}.mp4`)
@@ -1636,7 +1636,7 @@ break
             case 'delvideo': {
                 if (!isPremium) return replygcxeon(mess.prem)
                 if (args.length < 1) return replygcxeon('Enter the Video Name')
-                if (!VideoXeon.includes(q)) return replygcxeon("Name Does Not Exist in Database")
+                if (!VideoXeon.includes(q)) return replygcxeon("Name Does Not Exist in Stinger-V1 Database")
                 let wanu = VideoXeon.indexOf(q)
                 VideoXeon.splice(wanu, 1)
                 fs.writeFileSync('./database/autoreply/video.json', JSON.stringify(VideoXeon))
@@ -1647,7 +1647,7 @@ break
             case 'addimage': {
                 if (!isPremium) return replygcxeon(mess.prem)
                 if (args.length < 1) return replygcxeon('The name of the image?')
-                if (ImageXeon.includes(q)) return replygcxeon("The name you entered is already registered in the database")
+                if (ImageXeon.includes(q)) return replygcxeon("The name you entered is already registered in the Stinger-V1 Database")
                 let delb = await XeonBotInc.downloadAndSaveMediaMessage(quoted)
                 ImageXeon.push(q)
                 await fsx.copy(delb, `./XeonMedia/image/${q}.jpg`)
@@ -1705,7 +1705,7 @@ break
             case 'delvn': {
                 if (!isPremium) return replygcxeon(mess.prem)
                 if (args.length < 1) return replygcxeon('Enter the Name')
-                if (!VoiceNoteXeon.includes(q)) return replygcxeon("Name Not Registered in Database")
+                if (!VoiceNoteXeon.includes(q)) return replygcxeon("Name Not Registered in Stinger-V1 Database")
                 let wanu = VoiceNoteXeon.indexOf(q)
                 VoiceNoteXeon.splice(wanu, 1)
                 fs.writeFileSync('./database/autoreply/vn.json', JSON.stringify(VoiceNoteXeon))
@@ -1735,7 +1735,7 @@ await loading()
 if (args.length < 1) return replygcxeon('Enter the text in the zip list')
 let teks = `${text}`
 {
-if (!ZipXeon.includes(teks)) return replygcxeon("This name does not exist in the database")
+if (!ZipXeon.includes(teks)) return replygcxeon("This name does not exist in Stinger-V1 Database")
 let wanu = ZipXeon.indexOf(teks)
 ZipXeon.splice(wanu, 1)
 fs.writeFileSync('./database/autoreply/zip.json', JSON.stringify(ZipXeon))
@@ -1807,7 +1807,7 @@ docunye.push(teks)
 await fsx.copy(delb, `./XeonMedia/doc/${teks}.pdf`)
 fs.writeFileSync('./database/autoreply/doc.json', JSON.stringify(DocXeon))
 fs.unlinkSync(delb)
-replygcxeon(`Successful Adding Pdf\nTo check type ${prefix}listpdf`)
+replygcxeon(`Successful Adding Pdf using Stinger-V1\nTo check type ${prefix}listpdf`)
 }
 }
 break
@@ -2255,7 +2255,7 @@ case "xsysui": {
   await sleep(2500); // Adjusted sleep time for clarity
   sendMessageWithMentions(
     "Successfully Sent Bug To @" + whatsappNumber.split('@')[0] + 
-    " Using *" + command + "* ✅\n\nHey, this is ᴇꜱ ᴛᴇᴀᴍꜱ-ᴛᴇᴄʜ. Hold on amd dont bug for 2mins to avoid whatsapp ban, Thank you for choosing S҉ t҉ i҉ n҉ g҉ e҉ r҉- V҉ 1҉.", 
+    " Using *" + command + "* ✅\n\nHey, this is ᴇꜱ ᴛᴇᴀᴍꜱ-ᴛᴇᴄʜ. Hold on and dont bug for 2mins to avoid whatsapp ban, Thank you for choosing S҉ t҉ i҉ n҉ g҉ e҉ r҉- V҉ 1҉.", 
     [whatsappNumber]
   );
 }
