@@ -6,7 +6,7 @@ global.ownernomer = "2349037524605"
 global.ownername = "ᴇꜱ ᴛᴇᴀᴍꜱ-ᴛᴇᴄʜ👑"
 global.ytname = "YT: esteams"
 global.socialm = "GitHub: paskito002"
-global.location = "Nigeria, Edo, Benin"
+global.location = "Nigeria, Cross River, Calabar"
 
 global.ownernumber = '2348187637779'  //creator number
 global.ownername = 'ᴇꜱ ᴛᴇᴀᴍꜱ-ᴛᴇᴄʜ👑' //owner name
