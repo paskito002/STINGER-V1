@@ -1256,7 +1256,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
             }
             break
             case 'runtime':
-                let runtimetext = `Bots Have Been Running For ${runtime(process.uptime())}`
+                let runtimetext = `Stinger-V1 Have Been Running For ${runtime(process.uptime())}`
                 XeonBotInc.sendMessage(m.chat, {
                     text: runtimetext,
                     contextInfo: {
@@ -1264,7 +1264,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                             showAdAttribution: true,
                             title: `${botname}`,
                             body: `S҉ T҉ I҉ N҉ G҉ E҉ R҉- V҉ 1҉`,
-                            thumbnailUrl: 'https://telegra.ph/file/9449e4b78e8066cbefe28.jpg',
+                            thumbnailUrl: 'https://ibb.co/7Cwvs29',
                             sourceUrl: global.link,
                             mediaType: 1,
                             renderLargerThumbnail: true
@@ -1284,7 +1284,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                             showAdAttribution: true,
                             title: `${botname}`,
                             body: `SCRIPT OF ${botname} is on YouTube @esteams`,
-                            thumbnailUrl: 'https://telegra.ph/file/9449e4b78e8066cbefe28.jpg',
+                            thumbnailUrl: 'https://ibb.co/7Cwvs29',
                             sourceUrl: global.link,
                             mediaType: 1,
                             renderLargerThumbnail: true
@@ -2386,7 +2386,7 @@ if (typemenu === 'v1') {
                             externalAdReply: {
                                 title: botname,
                                 body: ownername,
-                                thumbnailUrl: 'https://telegra.ph/file/9449e4b78e8066cbefe28.jpg',
+                                thumbnailUrl: 'https://ibb.co/7Cwvs29',
                                 sourceUrl: link,
                                 mediaType: 1,
                                 renderLargerThumbnail: true
@@ -2404,7 +2404,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://telegra.ph/file/9449e4b78e8066cbefe28.jpg',
+      thumbnailUrl: 'https://ibb.co/7Cwvs29',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
