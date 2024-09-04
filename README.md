@@ -1,5 +1,5 @@
 ### STINGER-V1 BUG BOT 
-   <a><img src='https://telegra.ph/file/9449e4b78e8066cbefe28.jpg'/></a>
+   
 <p align="center">
 <img src="https://telegra.ph/file/9449e4b78e8066cbefe28.jpg"/> 
 <p align="center">
