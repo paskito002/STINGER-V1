@@ -17,7 +17,7 @@
     <a href='https://control.bot-hosting.net/auth/login' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=bot-hosting.net&logoColor=white'/></a>
     
 ## WATCH VIDEO ON HOW TO DEPLOY ON PANEL.
-* [![Video Loading..](https://img.shields.io/badge/HOW_TO_DEPLOY-red?style=for-the-badge&logo=youtube&logoColor=white)](Loading)
+* [![Video Loading..](https://img.shields.io/badge/HOW_TO_DEPLOY-red?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/v1V-hBS3tEQ)
 
 ### 3.
 #### COPY THESE COMMANDS AND PASTE IF YOU TRYING TO DEPLOY [STINGER-V1 BUG BOT](https://github.com/paskito002/STINGER-V1) ON ANY TERMINAL
