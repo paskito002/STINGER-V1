@@ -1,4 +1,4 @@
-### STINGER-V2 BUG BOT 
+### STINGER-V1 BUG BOT 
    
 <p align="center">
 <img src="https://i.ibb.co/WVjs0r4/IMG-20240906-WA0025.jpg"/> 
